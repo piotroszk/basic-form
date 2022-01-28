@@ -1,0 +1,36 @@
+[
+  {
+    "type": "text",
+    "name": "username",
+    "validators": [
+      {
+        "name": "required",
+        "value": true
+      },
+      {
+        "name": "minLength",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "validators": [
+      {
+        "name": "required",
+        "value": true
+      }
+    ]
+  },
+  {
+    "type": "password",
+    "name": "password",
+    "validators": [
+      {
+        "name": "required",
+        "value": true
+      }
+    ]
+  }
+]
