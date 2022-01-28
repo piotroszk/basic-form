@@ -2,35 +2,27 @@
   {
     "type": "text",
     "name": "username",
-    "validators": [
-      {
-        "name": "required",
-        "value": true
-      },
-      {
-        "name": "minLength",
-        "value": 3
-      }
-    ]
+    "placeholder": "Provide username",
+    "validators": {
+      "required": true,
+      "minlength": 3
+    }
   },
   {
     "type": "email",
     "name": "email",
-    "validators": [
-      {
-        "name": "required",
-        "value": true
-      }
-    ]
+    "placeholder": "Provide email",
+    "validators": {
+      "required": true
+    }
   },
   {
     "type": "password",
     "name": "password",
-    "validators": [
-      {
-        "name": "required",
-        "value": true
-      }
-    ]
+    "placeholder": "Provide password",
+    "validators": {
+      "required": true,
+      "minlength": 5
+    }
   }
 ]
